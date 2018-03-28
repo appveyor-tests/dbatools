@@ -11,4 +11,4 @@ Install-Module -Name PSScriptAnalyzer -Force | Out-Null
 
 # "Get Pester manually"
 Write-Host -Object "appveyor.prep: Install Pester" -ForegroundColor DarkGreen
-Install-Module -Name Pester -Repository PSGallery -Force | Out-Null
+Install-Module -Name Pester -Repository PSGallery -Force -SkipPublisherCheck | Out-Null
