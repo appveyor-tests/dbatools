@@ -1,5 +1,7 @@
 ﻿# See http://www.appveyor.com/docs/appveyor-yml for many more options
 
+image: Visual Studio 2015
+
 build: false
 version: 0.9.{build}
 
